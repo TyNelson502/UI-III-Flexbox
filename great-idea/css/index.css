@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-top: 20px;
+	margin-right: 75px;
+	margin-left: 75px;
+	margin bottom 75px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +68,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.nav-bar .navigation{
+	background-color: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+.navigation a{
+	color: grey;
+	text-decoration: none;
+	font-size: 1rem;
+	margin-bottom: 50px;
+}
+.logo{
+	margin-bottom: 50px;
+}
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	align-items: baseline;
+}
+.header h1{
+	font-size: 55pt; 
+	align-self:center;
+	margin-top: 50px;
+}
+button{ 
+	border:1px solid black;
+	font-family: "Titillium Web";
+	background-color: white;	
+	align-content: stretch;
+	box-sizing: content-box;
+	padding-top: 6px;
+	padding-right: 45px;
+	padding-bottom: 6px;
+	padding-left: 45px;
+	margin-bottom: 45px;
+}
+.bigCircle-img{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.bigCircle{
+}
+.summaries-top{
+	border-top: dotted 2px black;
+	padding:30px 0px 30px;
+	margin-top: 20px;
+	display:flex;
+}
+.summaries-top .Features{
+	width: 49%;
+	margin-right: 5px;
+}
+
+.summaries-top .About{
+	width: 49%;
+}
+.middle-img{
+	display:flex;
+	width:100%;
+	margin-bottom:30px;
+}
+.wrapper{
+	border-bottom: dotted 2px black;
+	padding:20px 0px 30px;
+	margin-bottom: 20px;
+	display: flex;
+	grid-template-columns:350px 350px 350px;
+	justify-content: center;
+}
+.summaries .Services{
+	width: 270px;
+	margin-right: 29px;
+}
+.summaries .Product{
+	width: 270px;
+	margin-right:29px;
+}
+.summaries .Vision{
+	width: 270px;
+}
+footer{
+	margin: 40px 0;
+	padding-bottom: 40px;
+}
+footer>a{
+	margin-bottom:45px;
+}
+.copyright{
+	text-align: center;
+	margin-top: 45px;
+}	
